@@ -1,4 +1,4 @@
-- name: Install Apache
-  ansible.builtin.yum:
-    name: httpd
-    state: latest
+- name: Installing Nginx
+  ansible.builtin.package:
+    name: nginx
+    state: present
