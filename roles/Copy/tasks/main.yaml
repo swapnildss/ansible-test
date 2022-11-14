@@ -1,8 +1,10 @@
 - name: Nginx
   hosts: all
+  become: true
+  become_user: root
   tasks:
     - name: Installing Nginx
       ansible.builtin.package:
        name: nginx
        state: present
-      become_user: root
+      
