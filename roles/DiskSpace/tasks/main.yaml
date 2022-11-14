@@ -2,4 +2,4 @@
   hosts: all 
   tasks:
     - name: Print the DiskSpace
-      ansible.builtin.shell: df -Th
+      command: df -Th
