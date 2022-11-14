@@ -13,3 +13,8 @@
         state: started
         name: nginx 
         enabled: yes
+
+    - name: Copying Roboshop Configuration  
+      ansible.builtin.copy:
+      src: test
+      dest: /tmp
