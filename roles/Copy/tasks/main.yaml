@@ -7,9 +7,9 @@
       ansible.builtin.package:
        name: nginx
        state: present
-      
-- name: Restarting Service 
-  ansible.builtin.systemd:
-    state: started
-    name: nginx 
-    enabled: yes
+    
+    - name: Restarting Service 
+      ansible.builtin.systemd:
+        state: started
+        name: nginx 
+        enabled: yes
