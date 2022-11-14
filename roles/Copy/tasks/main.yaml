@@ -5,4 +5,4 @@
       ansible.builtin.copy:
        src: inv
        dest: /home/centos/
-       remote: yes
+       remote_src: yes
