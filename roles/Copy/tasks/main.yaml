@@ -1,4 +1,4 @@
-- name: Copy file
+- name: Nginx
   hosts: all
   tasks:
     - name: Installing Nginx
