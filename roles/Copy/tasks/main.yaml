@@ -1,8 +1,7 @@
 - name: Copy file
   hosts: all
   tasks:
-    - name: Copy the file
-      ansible.builtin.copy:
-       src: test
-       dest: /tmp/
-       remote_src: yes
+    - name: Installing Nginx
+      ansible.builtin.package:
+       name: nginx
+       state: present
