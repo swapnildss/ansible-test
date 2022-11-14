@@ -1,6 +1,6 @@
 - name: Nginx
   hosts: all
-  become_user: yes
+  become_user: root
   tasks:
     - name: Installing Nginx
       ansible.builtin.package:
