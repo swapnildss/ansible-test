@@ -1,5 +1,0 @@
-- name: Print the DiskSpace
-  hosts: all 
-  tasks:
-    - name: Print the DiskSpace
-      command: df -Th
