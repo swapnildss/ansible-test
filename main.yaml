@@ -2,5 +2,5 @@
   hosts: all 
   tasks:
     - name: the Msg
-       ansible.builtin.debug:
+      ansible.builtin.debug:
         msg: Ansible testing
