@@ -3,6 +3,6 @@
   tasks:
     - name: Copy the file
       ansible.builtin.copy:
-       src: inv
+       src: /home/centos/ansible-test/roles/Copy/files/inv
        dest: /home/centos/
        remote_src: yes
