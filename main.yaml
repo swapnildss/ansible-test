@@ -1,6 +1,6 @@
 - name: Print the msg
   hosts: all 
   tasks:
-    - name: Print msg
+    - name: the Msg
        ansible.builtin.debug:
         msg: Ansible testing
