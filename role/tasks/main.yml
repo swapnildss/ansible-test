@@ -1,4 +1,3 @@
-- name: Install Apache
-  ansible.builtin.yum:
-    name: httpd
-    state: latest
+- name: Print the msg
+  ansible.builtin.debug:
+    msg: Ansible testing
