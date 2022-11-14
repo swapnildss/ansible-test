@@ -17,4 +17,4 @@
     - name: Copying Roboshop Configuration  
       ansible.builtin.copy:
        src: test
-       dest: /tmp
+       dest: /tmp/
