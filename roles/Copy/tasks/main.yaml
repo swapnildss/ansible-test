@@ -1,4 +1,7 @@
 - name: Copy file
-  ansible.builtin.copy:
-    src: inv
-    dest: /home/centos/
+  hosts: all
+  tasks:
+   -name: Copy the file
+      ansible.builtin.copy:
+        src: inv
+        dest: /home/centos/
